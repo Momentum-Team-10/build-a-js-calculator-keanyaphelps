@@ -4,7 +4,7 @@ let buttons = document.querySelectorAll(".number-button");
 
 console.log("test1");
 for (let button of buttons) {
-    console.log(button);
+    
     button.addEventListener("click", () => {
         console.log(display.innerText);
         display.innerText += button.innerText;
